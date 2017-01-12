@@ -1,0 +1,30 @@
+.contenedor{
+	background-color: #ecf0f1;
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.btn-danger{
+	background: #c0392b;
+	border-color: #c0392b;
+}
+
+.btn-primary{;
+	background: #8e44ad;
+	border-color: #8e44ad;
+}
+
+.btn-info{
+	background: #3498db;
+	border-color: #3498db;
+}
+
+footer{
+	background-color: #ecf0f1;
+	padding: 20px;
+}
+header h6{
+	color: #95a5a6;
+}
