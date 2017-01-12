@@ -22,8 +22,7 @@ app.use(express.static(path.join(__dirname,'app')))
 app.use(cors())
 app.use('/', routes)
 
-mongoose.connect('mongodb://luisvilches:luisvilches@ds163718.mlab.com:63718/mean
-', err => {
+mongoose.connect('mongodb://luisvilches:luisvilches@ds163718.mlab.com:63718/mean', err => {
 	if (err) {console.log(err)}
 })
 
