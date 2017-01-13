@@ -1,6 +1,5 @@
 const app = require('../index')
 const Task = require('.././models/model')
-app.io.set('origins', '*:*');
 exports.index = (req,res,next) => {
 	res.sendfile('./app/index.html');
 }
