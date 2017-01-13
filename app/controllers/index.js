@@ -1,4 +1,4 @@
-var socket = io.connect( '/:8000');
+var socket = io.connect( '/');
 
 exports = angular.module('controllers',[])
 
