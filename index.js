@@ -11,6 +11,7 @@ const routes = require('./routes')
 let app = express();
 let server = http.createServer(app);
 var io = socket(server);
+io.set('origins', '*:*');
 let port = process.env.PORT || 8000;
 
 exports.io = io;
